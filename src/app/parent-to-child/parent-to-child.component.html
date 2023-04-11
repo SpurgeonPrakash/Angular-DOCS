@@ -1,0 +1,7 @@
+<p>Recently Finished Course Is: {{ recFinished }}</p>
+<section *ngIf="courseDetails.length > 0">
+  <div *ngFor="let item of courseDetails">
+    <p>id:{{ item.courseId }}</p>
+    <p>name:{{ item.name }}</p>
+  </div>
+</section>

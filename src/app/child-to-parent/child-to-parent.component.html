@@ -1,0 +1,5 @@
+<ul *ngFor="let item of courses">
+  <li>Course Id: {{ item.courseId }}</li>
+  <li>Course Name: {{ item.name }}</li>
+  <li><button (click)="register(item.name)">Register</button></li>
+</ul>

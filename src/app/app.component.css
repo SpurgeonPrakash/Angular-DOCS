@@ -1,0 +1,20 @@
+.heading {
+  font-size: 2rem;
+  text-align: center;
+  /* margin-top: 0; */
+  color: white;
+  padding: 1rem;
+  background-color: darkgoldenrod;
+}
+
+.backgroundPurple {
+  background-color: purple;
+}
+
+.increaseFont {
+  font-size: 1.5rem;
+}
+
+.changeFontToCursive {
+  font-family: cursive;
+}
